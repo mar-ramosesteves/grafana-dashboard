@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: grafana-dashboard
+    env: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
